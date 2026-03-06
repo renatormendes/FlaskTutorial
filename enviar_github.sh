@@ -6,7 +6,7 @@ set -e
 USUARIO="renatormendes"
 NOME_PROJETO=$(basename "$PWD")
 # Montagem explícita da URL
-URL_REMOTA="https://github.com{USUARIO}/${NOME_PROJETO}.git"
+URL_REMOTA="https://github.com/${USUARIO}/${NOME_PROJETO}.git"
 MENSAGEM=${1:-"Update: $(date +'%d/%m/%Y %H:%M:%S')"}
 
 echo "------------------------------------------"
