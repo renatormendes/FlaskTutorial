@@ -1,2 +1,2 @@
-# Flask_SQLAlchemy-Tutorial
+# FlaskTutorial
 Tutorial simples com Flask e SQLAlchemy
